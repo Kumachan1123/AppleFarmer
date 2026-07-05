@@ -23,6 +23,12 @@ public class LogoScene : MonoBehaviour
     /// </summary>
     [SerializeField]
     private string m_nextSceneName = string.Empty;
+
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
+
     /// <summary>
     /// ŠJnˆ—
     /// </summary>

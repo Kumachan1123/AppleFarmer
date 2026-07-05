@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59c1d0e4f8fcef47801cccfbcf2c80a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
-  m_fade: {fileID: 1926737926}
+  m_fade: {fileID: 2043753285}
 --- !u!114 &480690615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a4ee7b039d87cc4aa95d37f44c0cda1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TapToFadeOut
-  m_fade: {fileID: 1926737926}
+  m_fade: {fileID: 2043753285}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,8 +542,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1926737929}
   - {fileID: 434092143}
+  - {fileID: 2043753284}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -580,12 +580,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_ReferenceResolution: {x: 1080, y: 1920}
+  m_ScreenMatchMode: 2
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -694,23 +694,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1926737926 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3043839190090471804, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
-  m_PrefabInstance: {fileID: 5522569705150494186}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72d91348c3d946942ab5e3af758dd258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Fade
---- !u!224 &1926737929 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3359838646401798185, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
-  m_PrefabInstance: {fileID: 5522569705150494186}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5522569705150494186
+--- !u!1001 &2043753283
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -744,11 +728,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3359838646401798185, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 3359838646401798185, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 3359838646401798185, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
       propertyPath: m_LocalPosition.x
@@ -807,6 +791,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
+--- !u!224 &2043753284 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3359838646401798185, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
+  m_PrefabInstance: {fileID: 2043753283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2043753285 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3043839190090471804, guid: 2d195758ce95ea3479ca688326845e25, type: 3}
+  m_PrefabInstance: {fileID: 2043753283}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d91348c3d946942ab5e3af758dd258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fade
 --- !u!1001 &8996981769249616637
 PrefabInstance:
   m_ObjectHideFlags: 0

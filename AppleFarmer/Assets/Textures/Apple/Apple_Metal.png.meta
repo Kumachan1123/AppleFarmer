@@ -116,10 +116,10 @@ TextureImporter:
       name: Apple_Metal_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 0
-        width: 48
-        height: 53
+        width: 71
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
